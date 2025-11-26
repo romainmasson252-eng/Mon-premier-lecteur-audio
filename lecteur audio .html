@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lecteur audio</title>
+    <style>
+        body {
+            background: #101820;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .player-box {
+            margin: 40px auto;
+            padding: 20px;
+            width: 330px;
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 15px;
+            backdrop-filter: blur(6px);
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🎵 Mon Lecteur Audio</h1>
+
+    <div class="player-box">
+        <h2>Ma musique</h2>
+
+        <audio controls>
+            <source src="J’suis ta petite blonde aux yeux bleu sa.mp3" type="audio/mpeg">
+            Ton navigateur ne supporte pas l'audio.
+        </audio>
+    </div>
+
+</body>
+</html>
